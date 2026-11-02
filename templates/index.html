@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A credited reference page showcasing Akshat Kothari's Tableau EV dashboard and story.">
+  <title>EV Analytics | Tableau Reference by Akshat Kothari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <nav class="navbar">
+    <a class="brand" href="#home"><span class="bolt">ϟ</span> EV<span class="accent">ANALYTICS</span></a>
+    <div class="navlinks">
+      <a href="#dashboard">Dashboard</a>
+      <a href="#story">Story</a>
+      <a href="#credit">Attribution</a>
+    </div>
+    <a class="nav-cta" href="#dashboard">Explore visualizations</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> TABLEAU PUBLIC REFERENCE</div>
+        <h1>Explore the <em>electric vehicle</em> market.</h1>
+        <p class="intro">A reference showcase of an interactive EV market dashboard and data story published on Tableau Public.</p>
+        <div class="actions">
+          <a class="button primary" href="#dashboard">View dashboard <span>↘</span></a>
+          <a class="button secondary" href="#story">Explore story</a>
+        </div>
+        <p class="credit-line">Visualizations created and published by <strong>Akshat Kothari</strong>.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="energy-card">
+          <div class="energy-icon">⚡</div>
+          <div class="energy-label">ELECTRIC MOBILITY</div>
+          <div class="energy-title">Data in motion.</div>
+          <div class="energy-rule"></div>
+          <div class="energy-foot"><span>TABLEAU PUBLIC</span><span>EV / INSIGHTS</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-strip">
+      <div><span class="strip-number">01</span><div><strong>Interactive dashboard</strong><small>Explore the published visualization</small></div></div>
+      <div><span class="strip-number">02</span><div><strong>Data story</strong><small>Follow the visual narrative</small></div></div>
+      <div><span class="strip-number">03</span><div><strong>Creator credit</strong><small>Original author clearly identified</small></div></div>
+    </section>
+
+    <section class="visual-section" id="dashboard">
+      <div class="section-head">
+        <div><div class="eyebrow">01 / INTERACTIVE ANALYTICS</div><h2>EV Market Dashboard</h2></div>
+        <p>Use the controls inside the Tableau visualization to explore the dashboard. It may take a few moments to load.</p>
+      </div>
+      <div class="viz-shell">
+        <iframe title="EV Market Dashboard by Akshat Kothari" src="https://public.tableau.com/views/Dashboard1_17936379054230/Dashboard1?:showVizHome=no&:embed=true&:display_count=n&:language=en-US" loading="lazy" allowfullscreen></iframe>
+      </div>
+      <div class="viz-meta"><span>Published on Tableau Public · Creator: Akshat Kothari</span><a href="https://public.tableau.com/views/Dashboard1_17936379054230/Dashboard1" target="_blank" rel="noopener noreferrer">Open on Tableau ↗</a></div>
+    </section>
+
+    <section class="story-section" id="story">
+      <div class="section-head">
+        <div><div class="eyebrow">02 / DATA STORYTELLING</div><h2>EV Market Story</h2></div>
+        <p>Explore the accompanying Tableau Story. Use the story navigation within the embedded view to move between its pages.</p>
+      </div>
+      <div class="viz-shell story-shell">
+        <iframe title="EV Market Story by Akshat Kothari" src="https://public.tableau.com/shared/3TYCX9NSN?:showVizHome=no&:embed=true&:display_count=n" loading="lazy" allowfullscreen></iframe>
+      </div>
+      <div class="viz-meta"><span>Published on Tableau Public · Creator: Akshat Kothari</span><a href="https://public.tableau.com/shared/3TYCX9NSN" target="_blank" rel="noopener noreferrer">Open on Tableau ↗</a></div>
+    </section>
+
+    <section class="attribution" id="credit">
+      <div class="attribution-mark">©</div>
+      <div>
+        <div class="eyebrow">CREDIT &amp; ATTRIBUTION</div>
+        <h2>Original work by Akshat Kothari</h2>
+        <p>This page is a separate reference showcase. The embedded dashboard and story are hosted by Tableau Public and are credited to Akshat Kothari. This page does not claim authorship or ownership of those visualizations.</p>
+      </div>
+      <a href="https://public.tableau.com/" target="_blank" rel="noopener noreferrer">Tableau Public ↗</a>
+    </section>
+  </main>
+
+  <footer><span>EV Analytics · Tableau reference page</span><span>Dashboard and story © their respective creator.</span></footer>
+</body>
+</html>
